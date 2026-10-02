@@ -1,0 +1,17 @@
+== p1_experiments.py ../evidence
+   exit=0
+== p1_svpwm.py ../evidence
+   exit=0
+== p2_calibration.py ../evidence
+   exit=0
+== p3_regen.py ../evidence
+   exit=1
+== p4_stack_check.py farm ../evidence
+   exit=0
+== p4_ram_evidence.py ../evidence
+   exit=0
+== p4_timing.py ../evidence
+   exit=0
+== p7_rechecks.py ../evidence
+   exit=0
+batch_exit=1

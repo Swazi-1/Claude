@@ -1,0 +1,77 @@
+farm accel {'1D654': 361, '1E3D0': 821, '1DDCC': 222, '1FC0C': 224, '2036C': 1128, '1DCB0': 77, '1D9C0': 161}
+farm coast {'1D654': 288, '1E3D0': 787, '1DDCC': 191, '1FC0C': 224, '2036C': 91, '1DCB0': 77, '1D9C0': 161}
+rc02 accel {'1D654': 397, '1E3D0': 821, '1DDCC': 222, '1FC0C': 224, '2036C': 1128, '1DCB0': 77, '1D9C0': 161}
+rc02 coast {'1D654': 324, '1E3D0': 787, '1DDCC': 191, '1FC0C': 224, '2036C': 91, '1DCB0': 77, '1D9C0': 161}
+{
+ "cycle_model": "Cortex-M0 TRM, single-cycle MULS, zero-latency DSP/CORDIC model, flash wait states excluded",
+ "pwm_period_cycles": 6145,
+ "d7_window_cycles": 24580,
+ "isr_paths_required_and_seen": [
+  "0x1b7ec",
+  "0x1c828",
+  "0x1d468",
+  "0x1d4c0",
+  "0x1d5b8",
+  "0x1ee60",
+  "0x22038"
+ ],
+ "isr_samples": 2880,
+ "isr_max_cycles": 2182,
+ "isr_mean_cycles": 1093.7847222222222,
+ "task_cycles": {
+  "1D654": {
+   "max": 397,
+   "mean": 302.8630625,
+   "n": 96000
+  },
+  "1E3D0": {
+   "max": 821,
+   "mean": 774.4970833333333,
+   "n": 4800
+  },
+  "1DDCC": {
+   "max": 222,
+   "mean": 206.5,
+   "n": 4800
+  },
+  "1FC0C": {
+   "max": 224,
+   "mean": 224.0,
+   "n": 2400
+  },
+  "2036C": {
+   "max": 1128,
+   "mean": 592.33,
+   "n": 2400
+  },
+  "1DCB0": {
+   "max": 77,
+   "mean": 77.0,
+   "n": 2400
+  },
+  "1D9C0": {
+   "max": 161,
+   "mean": 161.0,
+   "n": 2400
+  }
+ },
+ "budget_x1.0": {
+  "isr_share_of_pwm_period": 0.36,
+  "main_cycles_left_per_D7_window": 15724,
+  "slowest_task": "2036C",
+  "slowest_task_cycles": 1128
+ },
+ "budget_x1.5": {
+  "isr_share_of_pwm_period": 0.54,
+  "main_cycles_left_per_D7_window": 11296,
+  "slowest_task": "2036C",
+  "slowest_task_cycles": 1692
+ },
+ "budget_x2.0": {
+  "isr_share_of_pwm_period": 0.721,
+  "main_cycles_left_per_D7_window": 6868,
+  "slowest_task": "2036C",
+  "slowest_task_cycles": 2256
+ }
+}
+exit=0

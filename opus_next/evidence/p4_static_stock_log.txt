@@ -1,0 +1,104 @@
+{
+"reachable_insns": 16883,
+"functions": 218,
+"indirect_transfers": [
+[
+"199A4",
+"blx r0",
+"1999C",
+"1FFC8"
+],
+[
+"199A8",
+"bx r0",
+"1999C",
+"198D8"
+],
+[
+"19912",
+"bx r3",
+"198E0",
+null
+],
+[
+"19912",
+"bx r3",
+"198D8",
+null
+]
+],
+"unreached_code_pointer_words": [
+[
+"1BAF4",
+"232F8"
+],
+[
+"1C51C",
+"1FF4C"
+],
+[
+"1C81C",
+"1D64A"
+],
+[
+"1D588",
+"1FF4C"
+],
+[
+"1FAB0",
+"206D8"
+],
+[
+"20E54",
+"23296"
+],
+[
+"21420",
+"23296"
+]
+]
+}
+Reset 1999C 64 ['1999C', '1FFC8', '1BAF8', '1F10C', '1ADCC']
+NMI 199AA 0 ['199AA']
+HardFault 199AC 0 ['199AC']
+SVC 199AE 0 ['199AE']
+PendSV 199B0 0 ['199B0']
+SysTick 199B2 0 ['199B2']
+IRQ24 199B4 0 ['199B4']
+IRQ6 1C1EC 20 ['1C1EC']
+IRQ10 20488 60 ['20488', '1FF38']
+IRQ11 2073C 28 ['2073C']
+IRQ16 1CB14 84 ['1CB14', '1C828', '224B0', '1A810']
+IRQ23 1D64C 8 ['1D64C']
+indirect_from_199A4 1FFC8 64 ['1FFC8', '1BAF8', '1F10C', '1ADCC']
+indirect_from_199A8 198D8 364 ['198D8', '198E0', '19944', '2292C', '200A8', '1BF78', '1C3A8', '1BEA4']
+{
+"body_file": [
+"19818",
+"2381C"
+],
+"body_len": 40964,
+"runtime": [
+"0x2800",
+"0xc804"
+],
+"tail_after_body": 2020,
+"ff_runs_in_body": [],
+"zero_runs_in_body": [
+[
+"19826",
+30
+],
+[
+"198BA",
+31
+]
+],
+"ff_runs_after_body": [
+[
+"2381C",
+2020
+]
+],
+"last_reachable_insn_file": "2328E"
+}

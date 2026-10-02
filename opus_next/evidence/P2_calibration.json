@@ -1,0 +1,182 @@
+{
+ "table": [
+  {
+   "quantity": "speed A6 / 1AC (status bytes 9-10)",
+   "unit": "0.1 km/h per count (speed = 224427/period/10)",
+   "grade": "strong evidence",
+   "error": "+-5..10 % against ground (wheel size/pole count not measured)",
+   "needs": "GPS or wheel-revolution timing at steady speed"
+  },
+  {
+   "quantity": "FE raw bus voltage",
+   "unit": "0.05402 V/count (54.0 V at FE 1000)",
+   "grade": "strong evidence",
+   "error": "+-1.5 % (BGP reference +-0.8 %, divider resistors +-1 %)",
+   "anchors": {
+    "code_540_gate": 54.0,
+    "mapper_100pct_FE1007": 54.39422607421875,
+    "charger_spec": 54.6,
+    "owner_rest": 54.15
+   },
+   "implied_divider": 30.73
+  },
+  {
+   "quantity": "0x210 converted voltage",
+   "unit": "0.1 V per count (FE*8850>>14, file 0x22F46)",
+   "grade": "confirmed arithmetic; volts strong evidence",
+   "error": "as FE"
+  },
+  {
+   "quantity": "DC (0xDC) battery-side current",
+   "unit": "0.0370 A/count",
+   "grade": "strong evidence (two independent anchors)",
+   "error": "+-5 %",
+   "note": "regulated mean DC = 0.996 x EA in the executed closed loop"
+  },
+  {
+   "quantity": "EA/CA/C8 demand envelope",
+   "unit": "battery current ~ 0.0370 x 0.996 x EA A; watts = that x loaded bus volts",
+   "grade": "strong evidence",
+   "examples": {
+    "EA560": "20.6 A ~ 1049 W at 50.9 V",
+    "EA493": "18.1 A ~ 991 W at 54.6 V",
+    "EA274": "10.1 A"
+   },
+   "error": "+-6 %"
+  },
+  {
+   "quantity": "Vq command DA / 140 / 11C",
+   "unit": "1023 = line-line peak equal to bus (phase peak Vbus/sqrt3), executed SVPWM",
+   "grade": "confirmed (code executed)",
+   "error": "+-2 % dead-time",
+   "evidence": {
+    "500": {
+     "max_line_line_fraction_of_Vbus": 0.4883,
+     "min_over_angle": 0.4225
+    },
+    "900": {
+     "max_line_line_fraction_of_Vbus": 0.8789,
+     "min_over_angle": 0.7604
+    },
+    "1023": {
+     "max_line_line_fraction_of_Vbus": 1.0,
+     "min_over_angle": 0.8652
+    },
+    "flags_at_1023_30deg": [
+     0,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "quantity": "0x1AE normalised back-EMF",
+   "unit": "line-line back-EMF peak / FE x 1023 (file 0x1B7EC), written into 11C at flying start",
+   "grade": "confirmed arithmetic; equal dividers assumed",
+   "error": "unknown"
+  },
+  {
+   "quantity": "q (0x132) / d (0x130) phase current",
+   "unit": "counts per A peak = 569 x G x R_shunt",
+   "grade": "cannot be calibrated without the phase shunt value and external R0",
+   "bounds": {
+    "1 mohm": [
+     18.2,
+     15.2
+    ],
+    "1.5 mohm": [
+     27.3,
+     22.8
+    ],
+    "2 mohm": [
+     36.4,
+     30.3
+    ],
+    "3 mohm": [
+     54.6,
+     45.5
+    ]
+   },
+   "if_phase_shunt_equals_dc_shunt": 27.1
+  },
+  {
+   "quantity": "q -> wheel force",
+   "unit": "F = 1.5 x 3.6 x ke x Iq_peak (N); ke fitted 1.0..1.13 V per km/h (phase peak) under P1 hypothesis b",
+   "grade": "likely interpretation (model-fitted)",
+   "example": "~5.9 N per A peak; 1461 counts ~ 317 N if 27 counts/A"
+  },
+  {
+   "quantity": "coast regen targets B4 91/160/320",
+   "unit": "q-current targets (counts), farm Strong 320",
+   "grade": "confirmed role; amps need q scale",
+   "example": "at 27 counts/A: 3.4 / 5.9 / 11.9 A peak ~ 20 / 35 / 70 N"
+  },
+  {
+   "quantity": "C2 local temperature",
+   "unit": "0.1 degC (NTC line (340800-213x)/100, IIR 1/8)",
+   "grade": "strong evidence",
+   "error": "sensor placement unknown"
+  },
+  {
+   "quantity": "0x328 remote temperature",
+   "unit": "degC (sign-magnitude from BMS frame 0x74/0x44 byte 9)",
+   "grade": "likely interpretation"
+  },
+  {
+   "quantity": "BMS current (first image)",
+   "unit": "raw x10 -> likely mA; 22000 trip = ~22 A for 80 calls (~8 s)",
+   "grade": "likely interpretation"
+  },
+  {
+   "quantity": "scheduler tick",
+   "unit": "1.0241667 ms nominal (16 PWM periods of 64.01 us)",
+   "grade": "confirmed configuration; wall time not measured",
+   "error": "PLL accuracy; flag coalescing under load"
+  }
+ ],
+ "checks": [
+  {
+   "check": "ADC: DC-current slot (ADC0 DAT2) and voltage slot (ADC0 DAT3) use the +-3.6 V range; phase-current slots too",
+   "ok": true,
+   "detail": {
+    "ADC0_GAIN": "0x50",
+    "ADC1_GAIN": "0x0",
+    "ADC0_CHN": [
+     "0x5231",
+     "0x478"
+    ],
+    "ADC1_CHN": [
+     "0xcda0",
+     "0xfe9"
+    ],
+    "SYS_AFE_REG0": "0x0"
+   }
+  },
+  {
+   "check": "FE scale: implied divider ratio is within 2 % of a standard 300k:10k (31:1) divider",
+   "ok": true,
+   "detail": 30.73
+  },
+  {
+   "check": "DC scale: owner anchor (20.41 A at farm EA 560) and Xiaomi anchor (1000+-50 W at 54.6 V, stock EA 493) agree within the Xiaomi tolerance",
+   "ok": true,
+   "detail": {
+    "mean_regulated_DC_farm": 557.4,
+    "mean_regulated_DC_stock": 491.0,
+    "k_owner": 0.03662,
+    "k_xiaomi": 0.0373,
+    "k_xiaomi_err": 0.00187
+   }
+  },
+  {
+   "check": "DC scale is physically plausible: implied shunt with OPA gain 26.7..32 lies in 1..3 milliohm",
+   "ok": true,
+   "detail": {
+    "shunt_mohm": [
+     1.49,
+     1.78
+    ]
+   }
+  }
+ ]
+}

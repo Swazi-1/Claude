@@ -1,0 +1,854 @@
+{
+ "regen_flatness": {
+  "stock": {
+   "7": {
+    "A6": 69,
+    "B2": 0,
+    "BA_max_seen": 8,
+    "first_DA_drop_tick": 5
+   },
+   "8": {
+    "A6": 79,
+    "B2": 0,
+    "BA_max_seen": 9,
+    "first_DA_drop_tick": 5
+   },
+   "8.5": {
+    "A6": 85,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "10": {
+    "A6": 100,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "15": {
+    "A6": 149,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "20": {
+    "A6": 200,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "22": {
+    "A6": 220,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "23": {
+    "A6": 229,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "24": {
+    "A6": 238,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "25": {
+    "A6": 249,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "26": {
+    "A6": 260,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "28": {
+    "A6": 280,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "30": {
+    "A6": 299,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "35": {
+    "A6": 350,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   }
+  },
+  "farm": {
+   "7": {
+    "A6": 69,
+    "B2": 0,
+    "BA_max_seen": 8,
+    "first_DA_drop_tick": 5
+   },
+   "8": {
+    "A6": 79,
+    "B2": 0,
+    "BA_max_seen": 9,
+    "first_DA_drop_tick": 5
+   },
+   "8.5": {
+    "A6": 85,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "10": {
+    "A6": 100,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "15": {
+    "A6": 149,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "20": {
+    "A6": 200,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "22": {
+    "A6": 220,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "23": {
+    "A6": 229,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "24": {
+    "A6": 238,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "25": {
+    "A6": 249,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "26": {
+    "A6": 260,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "28": {
+    "A6": 280,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "30": {
+    "A6": 299,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "35": {
+    "A6": 350,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   }
+  },
+  "rc01": {
+   "7": {
+    "A6": 69,
+    "B2": 0,
+    "BA_max_seen": 8,
+    "first_DA_drop_tick": 5
+   },
+   "8": {
+    "A6": 79,
+    "B2": 0,
+    "BA_max_seen": 9,
+    "first_DA_drop_tick": 5
+   },
+   "8.5": {
+    "A6": 85,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "10": {
+    "A6": 100,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "15": {
+    "A6": 149,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "20": {
+    "A6": 200,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "22": {
+    "A6": 220,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "23": {
+    "A6": 229,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "24": {
+    "A6": 238,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "25": {
+    "A6": 249,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "26": {
+    "A6": 260,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "28": {
+    "A6": 280,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "30": {
+    "A6": 299,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "35": {
+    "A6": 350,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   }
+  },
+  "rc02": {
+   "7": {
+    "A6": 69,
+    "B2": 0,
+    "BA_max_seen": 8,
+    "first_DA_drop_tick": 5
+   },
+   "8": {
+    "A6": 79,
+    "B2": 0,
+    "BA_max_seen": 9,
+    "first_DA_drop_tick": 5
+   },
+   "8.5": {
+    "A6": 85,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "10": {
+    "A6": 100,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "15": {
+    "A6": 149,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "20": {
+    "A6": 200,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "22": {
+    "A6": 220,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "23": {
+    "A6": 229,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "24": {
+    "A6": 238,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "25": {
+    "A6": 249,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "26": {
+    "A6": 260,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "28": {
+    "A6": 280,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "30": {
+    "A6": 299,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   },
+   "35": {
+    "A6": 350,
+    "B2": 320,
+    "BA_max_seen": 10,
+    "first_DA_drop_tick": 110
+   }
+  }
+ },
+ "gate_first_FE": 1000,
+ "gate_edge": {
+  "998": {
+   "V210": 539,
+   "BA": 10
+  },
+  "999": {
+   "V210": 539,
+   "BA": 10
+  },
+  "1000": {
+   "V210": 540,
+   "BA": 0
+  },
+  "1001": {
+   "V210": 540,
+   "BA": 0
+  }
+ },
+ "ntc_points_tenths": {
+  "600": 1993,
+  "661": 1993,
+  "700": 1917,
+  "1000": 1278,
+  "1116": 1030,
+  "1300": 639,
+  "1787": -398,
+  "1800": -400,
+  "1900": -400
+ },
+ "ntc_fault": {
+  "one_invalid_sample": [
+   300,
+   0
+  ],
+  "after_3_valid": 540,
+  "sustained_short": [
+   300,
+   1
+  ]
+ },
+ "thermal_cap_C8": {
+  "stock": {
+   "890": 560,
+   "900": 560,
+   "901": 490,
+   "1000": 193,
+   "1020": 133,
+   "1021": 130,
+   "1050": 43,
+   "1099": 0,
+   "1100": 3
+  },
+  "farm": {
+   "890": 560,
+   "900": 560,
+   "901": 560,
+   "1000": 560,
+   "1020": 560,
+   "1021": 557,
+   "1050": 470,
+   "1099": 323,
+   "1100": 3
+  }
+ },
+ "hold": {
+  "0": {
+   "engaged_tick": null,
+   "seconds": null,
+   "held_178": 0
+  },
+  "1": {
+   "engaged_tick": 5199,
+   "seconds": 5.32,
+   "held_178": 450
+  }
+ },
+ "checks": [
+  {
+   "check": "(1) stock: below the gate, coast target 320, step 10 and the same first DA-drop tick at every forced speed 8.5..35 km/h; 7..8 km/h target 0",
+   "ok": true,
+   "detail": {
+    "7": [
+     0,
+     8,
+     5
+    ],
+    "8": [
+     0,
+     9,
+     5
+    ],
+    "8.5": [
+     320,
+     10,
+     110
+    ],
+    "10": [
+     320,
+     10,
+     110
+    ],
+    "15": [
+     320,
+     10,
+     110
+    ],
+    "20": [
+     320,
+     10,
+     110
+    ],
+    "22": [
+     320,
+     10,
+     110
+    ],
+    "23": [
+     320,
+     10,
+     110
+    ],
+    "24": [
+     320,
+     10,
+     110
+    ],
+    "25": [
+     320,
+     10,
+     110
+    ],
+    "26": [
+     320,
+     10,
+     110
+    ],
+    "28": [
+     320,
+     10,
+     110
+    ],
+    "30": [
+     320,
+     10,
+     110
+    ],
+    "35": [
+     320,
+     10,
+     110
+    ]
+   }
+  },
+  {
+   "check": "(1) farm: below the gate, coast target 320, step 10 and the same first DA-drop tick at every forced speed 8.5..35 km/h; 7..8 km/h target 0",
+   "ok": true,
+   "detail": {
+    "7": [
+     0,
+     8,
+     5
+    ],
+    "8": [
+     0,
+     9,
+     5
+    ],
+    "8.5": [
+     320,
+     10,
+     110
+    ],
+    "10": [
+     320,
+     10,
+     110
+    ],
+    "15": [
+     320,
+     10,
+     110
+    ],
+    "20": [
+     320,
+     10,
+     110
+    ],
+    "22": [
+     320,
+     10,
+     110
+    ],
+    "23": [
+     320,
+     10,
+     110
+    ],
+    "24": [
+     320,
+     10,
+     110
+    ],
+    "25": [
+     320,
+     10,
+     110
+    ],
+    "26": [
+     320,
+     10,
+     110
+    ],
+    "28": [
+     320,
+     10,
+     110
+    ],
+    "30": [
+     320,
+     10,
+     110
+    ],
+    "35": [
+     320,
+     10,
+     110
+    ]
+   }
+  },
+  {
+   "check": "(1) rc01: below the gate, coast target 320, step 10 and the same first DA-drop tick at every forced speed 8.5..35 km/h; 7..8 km/h target 0",
+   "ok": true,
+   "detail": {
+    "7": [
+     0,
+     8,
+     5
+    ],
+    "8": [
+     0,
+     9,
+     5
+    ],
+    "8.5": [
+     320,
+     10,
+     110
+    ],
+    "10": [
+     320,
+     10,
+     110
+    ],
+    "15": [
+     320,
+     10,
+     110
+    ],
+    "20": [
+     320,
+     10,
+     110
+    ],
+    "22": [
+     320,
+     10,
+     110
+    ],
+    "23": [
+     320,
+     10,
+     110
+    ],
+    "24": [
+     320,
+     10,
+     110
+    ],
+    "25": [
+     320,
+     10,
+     110
+    ],
+    "26": [
+     320,
+     10,
+     110
+    ],
+    "28": [
+     320,
+     10,
+     110
+    ],
+    "30": [
+     320,
+     10,
+     110
+    ],
+    "35": [
+     320,
+     10,
+     110
+    ]
+   }
+  },
+  {
+   "check": "(1) rc02: below the gate, coast target 320, step 10 and the same first DA-drop tick at every forced speed 8.5..35 km/h; 7..8 km/h target 0",
+   "ok": true,
+   "detail": {
+    "7": [
+     0,
+     8,
+     5
+    ],
+    "8": [
+     0,
+     9,
+     5
+    ],
+    "8.5": [
+     320,
+     10,
+     110
+    ],
+    "10": [
+     320,
+     10,
+     110
+    ],
+    "15": [
+     320,
+     10,
+     110
+    ],
+    "20": [
+     320,
+     10,
+     110
+    ],
+    "22": [
+     320,
+     10,
+     110
+    ],
+    "23": [
+     320,
+     10,
+     110
+    ],
+    "24": [
+     320,
+     10,
+     110
+    ],
+    "25": [
+     320,
+     10,
+     110
+    ],
+    "26": [
+     320,
+     10,
+     110
+    ],
+    "28": [
+     320,
+     10,
+     110
+    ],
+    "30": [
+     320,
+     10,
+     110
+    ],
+    "35": [
+     320,
+     10,
+     110
+    ]
+   }
+  },
+  {
+   "check": "(2) gate edge: first raw FE with converted >= 540 is 1000, and BA is 0 exactly from FE 1000",
+   "ok": true,
+   "detail": {
+    "998": {
+     "V210": 539,
+     "BA": 10
+    },
+    "999": {
+     "V210": 539,
+     "BA": 10
+    },
+    "1000": {
+     "V210": 540,
+     "BA": 0
+    },
+    "1001": {
+     "V210": 540,
+     "BA": 0
+    }
+   }
+  },
+  {
+   "check": "(3a) NTC line: settled C2 lies in [f-7, f] of the decoded piecewise formula f (truncating IIR fixed point)",
+   "ok": true,
+   "detail": {
+    "600": [
+     1993,
+     2000
+    ],
+    "661": [
+     1993,
+     2000
+    ],
+    "700": [
+     1917,
+     1917
+    ],
+    "1000": [
+     1278,
+     1278
+    ],
+    "1116": [
+     1030,
+     1030
+    ],
+    "1300": [
+     639,
+     639
+    ],
+    "1787": [
+     -398,
+     -398
+    ],
+    "1800": [
+     -400,
+     -400
+    ],
+    "1900": [
+     -400,
+     -400
+    ]
+   }
+  },
+  {
+   "check": "(3b) one invalid NTC sample forces C2 = 300 at once without the fault flag; sustained invalid -> C2 300 and B8 = 1",
+   "ok": true,
+   "detail": {
+    "one_invalid_sample": [
+     300,
+     0
+    ],
+    "after_3_valid": 540,
+    "sustained_short": [
+     300,
+     1
+    ]
+   }
+  },
+  {
+   "check": "(3c) local thermal cap: stock min(560, 3193-3*C2) above 900, farm min(560, 3620-3*C2) above 1020, 3 at >=1100",
+   "ok": true,
+   "detail": {
+    "stock": {
+     "890": 560,
+     "900": 560,
+     "901": 490,
+     "1000": 193,
+     "1020": 133,
+     "1021": 130,
+     "1050": 43,
+     "1099": 0,
+     "1100": 3
+    },
+    "farm": {
+     "890": 560,
+     "900": 560,
+     "901": 560,
+     "1000": 560,
+     "1020": 560,
+     "1021": 557,
+     "1050": 470,
+     "1099": 323,
+     "1100": 3
+    }
+   }
+  },
+  {
+   "check": "(4) hold never engages with enable bit 0x16D = 0; engages after >= 4 s of steady throttle when enabled",
+   "ok": true,
+   "detail": {
+    "0": {
+     "engaged_tick": null,
+     "seconds": null,
+     "held_178": 0
+    },
+    "1": {
+     "engaged_tick": 5199,
+     "seconds": 5.32,
+     "held_178": 450
+    }
+   }
+  }
+ ]
+}

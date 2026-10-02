@@ -1,0 +1,38 @@
+{
+ "rows": [
+  {
+   "R_batt": 0.11,
+   "refit_ke": {
+    "onset": 23.5,
+    "top": 27.2
+   },
+   "fixed_ke": {
+    "onset": 23.9,
+    "top": 27.6
+   }
+  },
+  {
+   "R_batt": 0.161,
+   "refit_ke": {
+    "onset": 23.4,
+    "top": 27.5
+   },
+   "fixed_ke": {
+    "onset": 23.4,
+    "top": 27.5
+   }
+  },
+  {
+   "R_batt": 0.21,
+   "refit_ke": {
+    "onset": 23.3,
+    "top": 27.8
+   },
+   "fixed_ke": {
+    "onset": 22.9,
+    "top": 27.3
+   }
+  }
+ ],
+ "ok": true
+}

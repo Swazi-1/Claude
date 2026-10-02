@@ -1,0 +1,14 @@
+OK   D: in every (Rs,X25,P25) case fitted to the owner sample the voltage-limit onset lies in 20.5..25 km/h (20.9, 24.7)
+OK   D: onset speed falls with pack voltage (lower charge -> earlier dip) [(54.15, 23.4), (52.0, 22.3), (50.0, 21.2), (48.0, 20.2), (46.0, 19.2)]
+D done 25.20196223258972
+OK   A: realised firmware speed A6 within 2% of the forced speed at all 31 points 
+A done 32.655428886413574
+OK   B: farm full-throttle, plant in loop: command reaches the 1023 voltage ceiling first at 22..25 km/h 24
+OK   B: below the ceiling the battery current is held at the EA limit (DC within 6% of 560) [(10, 555.85), (11, 557.8), (12, 557.8), (13, 555.9), (14, 558.6)]
+OK   B: farm vs RC02 identical steady power at every forced speed (governor never active here) 
+B done 107.62365317344666
+C done 222.3954427242279
+OK   C: RC02 power at 25 km/h is never below farm power at 25 km/h by more than 5 W {'(15, 0.15)': (687.6, 687.6), '(15, 0.08)': (780.0, 780.0), '(15, 0.3)': (687.2, 687.2), '(25, 0.15)': (687.6, 687.6), '(25, 0.08)': (782.1, 782.1), '(25, 0.3)': (687.2, 687.2), '(35, 0.15)': (702.2, 702.2), '(35, 0.08)': (886.4, 886.4), '(35, 0.3)': (687.2, 687.2), '(50, 0.15)': (706.6, 706.6), '(50, 0.08)': (646.0, 646.0), '(50, 0.3)': (732.8, 732.8), '(70, 0.15)': (743.1, 743.1), '(70, 0.08)': (806.3, 806.3), '(70, 0.3)': (697.1, 697.1)}
+all checks ok 222.47591280937195
+
+exit=0

@@ -1,0 +1,89 @@
+49.0 -0.06 False None strong@ 30.0 gate 0.0 toggles 0 meanF -59.8 ripple 16.52 end 8.19 25.0
+49.0 -0.06 True 3 strong@ 30.0 gate 0.0 toggles 0 meanF -59.8 ripple 16.52 end 8.19 25.0
+49.0 -0.06 True 5 strong@ 30.0 gate 0.0 toggles 0 meanF -59.8 ripple 16.52 end 8.19 25.0
+49.0 -0.06 True 10 strong@ 30.0 gate 0.0 toggles 0 meanF -59.8 ripple 16.52 end 8.19 25.0
+49.0 -0.06 True 15 strong@ 30.0 gate 0.0 toggles 0 meanF -59.8 ripple 16.52 end 8.19 25.0
+49.0 -0.1 False None strong@ 30.0 gate 0.0 toggles 0 meanF -79.7 ripple 11.68 end 17.68 25.0
+49.0 -0.1 True 3 strong@ 30.0 gate 0.0 toggles 0 meanF -79.7 ripple 11.68 end 17.68 25.0
+49.0 -0.1 True 5 strong@ 30.0 gate 0.0 toggles 0 meanF -79.7 ripple 11.68 end 17.68 25.0
+49.0 -0.1 True 10 strong@ 30.0 gate 0.0 toggles 0 meanF -79.7 ripple 11.68 end 17.68 25.0
+49.0 -0.1 True 15 strong@ 30.0 gate 0.0 toggles 0 meanF -79.7 ripple 11.68 end 17.68 25.0
+51.0 -0.06 False None strong@ 29.41 gate 0.0 toggles 0 meanF -59.7 ripple 5.89 end 8.09 25.0
+51.0 -0.06 True 3 strong@ 29.41 gate 0.0 toggles 0 meanF -59.7 ripple 5.89 end 8.09 25.0
+51.0 -0.06 True 5 strong@ 29.41 gate 0.0 toggles 0 meanF -59.7 ripple 5.89 end 8.09 25.0
+51.0 -0.06 True 10 strong@ 29.41 gate 0.0 toggles 0 meanF -59.7 ripple 5.89 end 8.09 25.0
+51.0 -0.06 True 15 strong@ 29.41 gate 0.0 toggles 0 meanF -59.9 ripple 6.8 end 7.96 25.0
+51.0 -0.1 False None strong@ 29.71 gate 0.0 toggles 0 meanF -79.2 ripple 5.29 end 17.79 25.0
+51.0 -0.1 True 3 strong@ 29.71 gate 0.0 toggles 0 meanF -79.2 ripple 5.29 end 17.79 25.0
+51.0 -0.1 True 5 strong@ 29.71 gate 0.0 toggles 0 meanF -79.2 ripple 5.29 end 17.79 25.0
+51.0 -0.1 True 10 strong@ 29.71 gate 0.0 toggles 0 meanF -79.2 ripple 5.29 end 17.79 25.0
+51.0 -0.1 True 15 strong@ 29.71 gate 0.0 toggles 0 meanF -78.7 ripple 5.29 end 17.97 25.0
+52.0 -0.06 False None strong@ 29.56 gate 0.0 toggles 0 meanF -59.7 ripple 6.83 end 8.05 25.0
+52.0 -0.06 True 3 strong@ 29.56 gate 0.0 toggles 0 meanF -59.7 ripple 6.83 end 8.05 25.0
+52.0 -0.06 True 5 strong@ 29.56 gate 0.0 toggles 0 meanF -59.6 ripple 5.76 end 8.16 25.0
+52.0 -0.06 True 10 strong@ 29.56 gate 0.0 toggles 0 meanF -58.8 ripple 5.38 end 8.12 25.0
+52.0 -0.06 True 15 strong@ 29.56 gate 0.0 toggles 0 meanF -57.4 ripple 7.21 end 8.04 25.0
+52.0 -0.1 False None strong@ 29.86 gate 0.0 toggles 0 meanF -79.1 ripple 4.25 end 17.8 25.0
+52.0 -0.1 True 3 strong@ 29.86 gate 0.0 toggles 0 meanF -79.1 ripple 4.25 end 17.8 25.0
+52.0 -0.1 True 5 strong@ 29.86 gate 0.0 toggles 0 meanF -78.8 ripple 2.97 end 17.88 25.0
+52.0 -0.1 True 10 strong@ 29.86 gate 0.0 toggles 0 meanF -58.7 ripple 2.81 end 29.5 25.0
+52.0 -0.1 True 15 strong@ 29.86 gate 0.0 toggles 0 meanF -58.7 ripple 2.81 end 29.5 25.0
+52.5 -0.06 False None strong@ 29.17 gate 0.082 toggles 136 meanF -59.7 ripple 5.74 end 8.01 25.0
+52.5 -0.06 True 3 strong@ 29.26 gate 0.0 toggles 2 meanF -59.0 ripple 3.11 end 8.18 25.0
+52.5 -0.06 True 5 strong@ 28.26 gate 0.0 toggles 2 meanF -58.7 ripple 3.57 end 8.1 25.0
+52.5 -0.06 True 10 strong@ 21.26 gate 0.0 toggles 2 meanF -56.2 ripple 5.94 end 8.11 25.0
+52.5 -0.06 True 15 strong@ None gate 0.0 toggles 2 meanF -45.6 ripple 5.94 end 14.74 25.0
+52.5 -0.1 False None strong@ 29.93 gate 0.334 toggles 430 meanF -77.5 ripple 3.18 end 18.39 25.0
+52.5 -0.1 True 3 strong@ 29.93 gate 0.002 toggles 2 meanF -58.0 ripple 1.79 end 29.75 25.0
+52.5 -0.1 True 5 strong@ 29.93 gate 0.002 toggles 2 meanF -58.0 ripple 1.79 end 29.75 25.0
+52.5 -0.1 True 10 strong@ 29.93 gate 0.002 toggles 2 meanF -58.0 ripple 1.79 end 29.75 25.0
+52.5 -0.1 True 15 strong@ 29.93 gate 0.002 toggles 2 meanF -58.0 ripple 1.79 end 29.75 25.0
+53.0 -0.06 False None strong@ 23.54 gate 0.396 toggles 474 meanF -57.3 ripple 4.2 end 8.18 25.0
+53.0 -0.06 True 3 strong@ 19.15 gate 0.105 toggles 346 meanF -55.5 ripple 4.8 end 8.12 25.0
+53.0 -0.06 True 5 strong@ 18.09 gate 0.017 toggles 2 meanF -51.1 ripple 4.8 end 10.07 25.0
+53.0 -0.06 True 10 strong@ None gate 0.017 toggles 2 meanF -35.7 ripple 4.8 end 21.24 25.0
+53.0 -0.06 True 15 strong@ None gate 0.017 toggles 2 meanF -28.9 ripple 4.8 end 25.46 25.0
+53.0 -0.1 False None strong@ None gate 1.0 toggles 1 meanF -57.4 ripple 1.45 end 30.01 25.0
+53.0 -0.1 True 3 strong@ None gate 1.0 toggles 1 meanF -57.4 ripple 1.45 end 30.01 25.0
+53.0 -0.1 True 5 strong@ None gate 1.0 toggles 1 meanF -57.4 ripple 1.45 end 30.01 25.0
+53.0 -0.1 True 10 strong@ None gate 1.0 toggles 1 meanF -57.4 ripple 1.45 end 30.01 25.0
+53.0 -0.1 True 15 strong@ None gate 1.0 toggles 1 meanF -57.4 ripple 1.45 end 30.01 25.0
+53.5 -0.06 False None strong@ None gate 1.0 toggles 0 meanF -22.3 ripple 3.72 end 29.11 25.0
+53.5 -0.06 True 3 strong@ None gate 1.0 toggles 0 meanF -22.3 ripple 3.72 end 29.11 25.0
+53.5 -0.06 True 5 strong@ None gate 1.0 toggles 0 meanF -22.3 ripple 3.72 end 29.11 25.0
+53.5 -0.06 True 10 strong@ None gate 1.0 toggles 0 meanF -22.3 ripple 3.72 end 29.11 25.0
+53.5 -0.06 True 15 strong@ None gate 1.0 toggles 0 meanF -22.3 ripple 3.72 end 29.11 25.0
+53.5 -0.1 False None strong@ None gate 1.0 toggles 0 meanF -56.8 ripple 1.69 end 30.26 25.0
+53.5 -0.1 True 3 strong@ None gate 1.0 toggles 0 meanF -56.8 ripple 1.69 end 30.26 25.0
+53.5 -0.1 True 5 strong@ None gate 1.0 toggles 0 meanF -56.8 ripple 1.69 end 30.26 25.0
+53.5 -0.1 True 10 strong@ None gate 1.0 toggles 0 meanF -56.8 ripple 1.69 end 30.26 25.0
+53.5 -0.1 True 15 strong@ None gate 1.0 toggles 0 meanF -56.8 ripple 1.69 end 30.26 25.0
+54.0 -0.06 False None strong@ None gate 1.0 toggles 0 meanF -21.7 ripple 2.61 end 29.36 25.0
+54.0 -0.06 True 3 strong@ None gate 1.0 toggles 0 meanF -21.7 ripple 2.61 end 29.36 25.0
+54.0 -0.06 True 5 strong@ None gate 1.0 toggles 0 meanF -21.7 ripple 2.61 end 29.36 25.0
+54.0 -0.06 True 10 strong@ None gate 1.0 toggles 0 meanF -21.7 ripple 2.61 end 29.36 25.0
+54.0 -0.06 True 15 strong@ None gate 1.0 toggles 0 meanF -21.7 ripple 2.61 end 29.36 25.0
+54.0 -0.1 False None strong@ None gate 1.0 toggles 0 meanF -56.2 ripple 2.4 end 30.51 25.0
+54.0 -0.1 True 3 strong@ None gate 1.0 toggles 0 meanF -56.2 ripple 2.4 end 30.51 25.0
+54.0 -0.1 True 5 strong@ None gate 1.0 toggles 0 meanF -56.2 ripple 2.4 end 30.51 25.0
+54.0 -0.1 True 10 strong@ None gate 1.0 toggles 0 meanF -56.2 ripple 2.4 end 30.51 25.0
+54.0 -0.1 True 15 strong@ None gate 1.0 toggles 0 meanF -56.2 ripple 2.4 end 30.51 25.0
+sens {'q_per_A': 15, 'R_batt': 0.1, 'full_strong_force_N': -125.4, 'speed_when_80pct_of_strong_force': 22.73, 'gate_closed_fraction': 0.162, 'gate_toggles': 250}
+sens {'q_per_A': 15, 'R_batt': 0.161, 'full_strong_force_N': -125.4, 'speed_when_80pct_of_strong_force': 15.1, 'gate_closed_fraction': 0.464, 'gate_toggles': 564}
+sens {'q_per_A': 15, 'R_batt': 0.22, 'full_strong_force_N': -125.4, 'speed_when_80pct_of_strong_force': None, 'gate_closed_fraction': 0.923, 'gate_toggles': 975}
+sens {'q_per_A': 25, 'R_batt': 0.1, 'full_strong_force_N': -75.2, 'speed_when_80pct_of_strong_force': 29.13, 'gate_closed_fraction': 0.05, 'gate_toggles': 100}
+sens {'q_per_A': 25, 'R_batt': 0.161, 'full_strong_force_N': -75.2, 'speed_when_80pct_of_strong_force': 23.54, 'gate_closed_fraction': 0.396, 'gate_toggles': 474}
+sens {'q_per_A': 25, 'R_batt': 0.22, 'full_strong_force_N': -75.2, 'speed_when_80pct_of_strong_force': 17.45, 'gate_closed_fraction': 0.907, 'gate_toggles': 962}
+sens {'q_per_A': 40, 'R_batt': 0.1, 'full_strong_force_N': -47.0, 'speed_when_80pct_of_strong_force': 29.63, 'gate_closed_fraction': 0.0, 'gate_toggles': 0}
+sens {'q_per_A': 40, 'R_batt': 0.161, 'full_strong_force_N': -47.0, 'speed_when_80pct_of_strong_force': 29.7, 'gate_closed_fraction': 0.183, 'gate_toggles': 270}
+sens {'q_per_A': 40, 'R_batt': 0.22, 'full_strong_force_N': -47.0, 'speed_when_80pct_of_strong_force': 29.75, 'gate_closed_fraction': 0.737, 'gate_toggles': 818}
+OK   spec hook leaves the overvoltage/negative-current routine 0x1D654 outputs identical at FE 1000/1075/1076/1090 [(1000, 0, 0), (1075, 0, 0), (1076, 1, 0), (1090, 1, 0)]
+OK   spec executed its hook in every spec run 
+OK   original: at 53.5 and 54.0 V rest the 540 gate is closed for >=95 % of the descent on both slopes {'(53.5, -0.06)': 1.0, '(53.5, -0.1)': 1.0, '(54.0, -0.06)': 1.0, '(54.0, -0.1)': 1.0}
+OK   original: at 52.5 V and at 53.0 V (6 %) the gate chatters (>=100 toggles) {'(52.5, -0.06)': 136, '(52.5, -0.1)': 430, '(53.0, -0.06)': 474}
+OK   original: at <=52.0 V the gate never closes 
+OK   spec: gate toggles reduced by at least 5x versus original wherever the original toggled >= 10 times {'(49.0, -0.06)': (0, 0), '(49.0, -0.1)': (0, 0), '(51.0, -0.06)': (0, 0), '(51.0, -0.1)': (0, 0), '(52.0, -0.06)': (0, 0), '(52.0, -0.1)': (0, 0), '(52.5, -0.06)': (136, 2), '(52.5, -0.1)': (430, 2), '(53.0, -0.06)': (474, 2), '(53.0, -0.1)': (1, 1), '(53.5, -0.06)': (0, 0), '(53.5, -0.1)': (0, 0), '(54.0, -0.06)': (0, 0), '(54.0, -0.1)': (0, 0)}
+FAIL spec (5 dV window): braking-force ripple above 12 km/h no larger than the original +0.5 N in every case {'(49.0, -0.06)': (16.52, 16.52), '(49.0, -0.1)': (11.68, 11.68), '(51.0, -0.06)': (5.89, 5.89), '(51.0, -0.1)': (5.29, 5.29), '(52.0, -0.06)': (6.83, 5.76), '(52.0, -0.1)': (4.25, 2.97), '(52.5, -0.06)': (5.74, 3.57), '(52.5, -0.1)': (3.18, 1.79), '(53.0, -0.06)': (4.2, 4.8), '(53.0, -0.1)': (1.45, 1.45), '(53.5, -0.06)': (3.72, 3.72), '(53.5, -0.1)': (1.69, 1.69), '(54.0, -0.06)': (2.61, 2.61), '(54.0, -0.1)': (2.4, 2.4)}
+OK   spec never exceeds the bus voltage reached by the original (max Vbus) 
+SOME CHECKS FAILED
+exit=1

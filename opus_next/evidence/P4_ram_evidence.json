@@ -1,0 +1,104 @@
+{
+ "candidate": [
+  "0x20000104",
+  "0x20000108"
+ ],
+ "static": {
+  "stock": {
+   "max_const_ram": "0x200009ef",
+   "touching_ge_1050": [],
+   "unresolved_store_sites": 85
+  },
+  "farm": {
+   "max_const_ram": "0x200009ef",
+   "touching_ge_1050": [],
+   "unresolved_store_sites": 85
+  },
+  "rc01": {
+   "max_const_ram": "0x200009ef",
+   "touching_ge_1050": [],
+   "unresolved_store_sites": 85
+  },
+  "rc02": {
+   "max_const_ram": "0x200009ef",
+   "touching_ge_1050": [],
+   "unresolved_store_sites": 94
+  }
+ },
+ "boot": {
+  "stock": {
+   "cand_after_boot": "00000000",
+   "high_untouched": true,
+   "low_all_written": true
+  },
+  "farm": {
+   "cand_after_boot": "00000000",
+   "high_untouched": true,
+   "low_all_written": true
+  },
+  "rc02": {
+   "cand_after_boot": "00000000",
+   "high_untouched": true,
+   "low_all_written": true
+  }
+ },
+ "checks": [
+  {
+   "check": "static: no constant or array-base access at/above 0x20001050 in any image",
+   "ok": true,
+   "detail": {
+    "stock": {
+     "max_const_ram": "0x200009ef",
+     "touching_ge_1050": [],
+     "unresolved_store_sites": 85
+    },
+    "farm": {
+     "max_const_ram": "0x200009ef",
+     "touching_ge_1050": [],
+     "unresolved_store_sites": 85
+    },
+    "rc01": {
+     "max_const_ram": "0x200009ef",
+     "touching_ge_1050": [],
+     "unresolved_store_sites": 85
+    },
+    "rc02": {
+     "max_const_ram": "0x200009ef",
+     "touching_ge_1050": [],
+     "unresolved_store_sites": 94
+    }
+   }
+  },
+  {
+   "check": "boot: scatter/zero-init leaves candidate 0x104..0x107 = 00000000 and never writes 0x1050..0x2FFF",
+   "ok": true,
+   "detail": {
+    "stock": {
+     "cand_after_boot": "00000000",
+     "high_untouched": true,
+     "low_all_written": true
+    },
+    "farm": {
+     "cand_after_boot": "00000000",
+     "high_untouched": true,
+     "low_all_written": true
+    },
+    "rc02": {
+     "cand_after_boot": "00000000",
+     "high_untouched": true,
+     "low_all_written": true
+    }
+   }
+  },
+  {
+   "check": "dynamic: no write to 0x104..0x107 and no non-stack write above 0x1050 in the executed routines",
+   "ok": true,
+   "detail": {
+    "hits": [],
+    "routine_calls": 28000,
+    "routines_that_could_not_complete_in_fixture": {}
+   }
+  }
+ ],
+ "note": "0x104..0x107 lies between halfword 0x102 (written at file 0x20360) and byte flags 0x108..0x10B; no code reads or writes it by constant address or array base in stock/farm/RC01/RC02.  Residual: pointer-based store sites listed in P4_mem_<image>.json (classified by hand in the report)."
+}

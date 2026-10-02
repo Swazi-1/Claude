@@ -1,0 +1,66 @@
+{
+ "image": "farm",
+ "static_worst": {
+  "1D654": 32,
+  "1E3D0": 48,
+  "1DDCC": 84,
+  "1FC0C": 76,
+  "2036C": 88,
+  "1DCB0": 32,
+  "1D9C0": 24,
+  "1CB14": 84,
+  "20A14": 112,
+  "1D09C": 60,
+  "200A8": 364
+ },
+ "emulated_peak": {
+  "1D654": 24,
+  "1E3D0": 40,
+  "1DDCC": 36,
+  "1FC0C": 24,
+  "2036C": 88,
+  "1DCB0": 24,
+  "1D9C0": 24,
+  "1CB14": 24
+ },
+ "main_thread_worst": 364,
+ "main_loop_children_worst": {
+  "200A8": 364,
+  "210C4": 356,
+  "22058": 208,
+  "21450": 204,
+  "1B6F8": 184,
+  "1E398": 184,
+  "20A14": 112,
+  "1B03C": 92,
+  "1C6AC": 88,
+  "1C53C": 88,
+  "2036C": 88,
+  "1DDCC": 84
+ },
+ "irq_worst": {
+  "IRQ24": 0,
+  "IRQ6": 20,
+  "IRQ10": 60,
+  "IRQ11": 28,
+  "IRQ16": 84,
+  "IRQ23": 8
+ },
+ "priorities": {
+  "IRQ6 I2C0": 0,
+  "IRQ23 PWRDN": 0,
+  "IRQ16 MCPWM0": 1,
+  "IRQ10 UART0": 3,
+  "IRQ11 UART1": 3
+ },
+ "nesting_bound_bytes": 636,
+ "reservation": 1024,
+ "margin": 388,
+ "lab_helper_added_bytes": {
+  "coast leaf": 24,
+  "cleanup wrapper": 16,
+  "child leaf": 24,
+  "rc02 helper": 16
+ }
+}
+exit=0

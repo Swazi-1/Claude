@@ -1,0 +1,5 @@
+OK   ADC: DC-current slot (ADC0 DAT2) and voltage slot (ADC0 DAT3) use the +-3.6 V range; phase-current slots too {'ADC0_GAIN': '0x50', 'ADC1_GAIN': '0x0', 'ADC0_CHN': ['0x5231', '0x478'], 'ADC1_CHN': ['0xcda0', '0xfe9'], 'SYS_AFE_REG0': '0x0'}
+OK   FE scale: implied divider ratio is within 2 % of a standard 300k:10k (31:1) divider 30.73
+OK   DC scale: owner anchor (20.41 A at farm EA 560) and Xiaomi anchor (1000+-50 W at 54.6 V, stock EA 493) agree within the Xiaomi tolerance {'mean_regulated_DC_farm': 557.4, 'mean_regulated_DC_stock': 491.0, 'k_owner': 0.03662, 'k_xiaomi': 0.0373, 'k_xiaomi_err': 0.00187}
+OK   DC scale is physically plausible: implied shunt with OPA gain 26.7..32 lies in 1..3 milliohm {'shunt_mohm': [1.49, 1.78]}
+exit=0

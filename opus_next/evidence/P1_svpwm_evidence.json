@@ -1,0 +1,23 @@
+{
+ "result": {
+  "500": {
+   "max_line_line_fraction_of_Vbus": 0.4883,
+   "min_over_angle": 0.4225
+  },
+  "900": {
+   "max_line_line_fraction_of_Vbus": 0.8789,
+   "min_over_angle": 0.7604
+  },
+  "1023": {
+   "max_line_line_fraction_of_Vbus": 1.0,
+   "min_over_angle": 0.8652
+  },
+  "flags_at_1023_30deg": [
+   0,
+   1,
+   1
+  ]
+ },
+ "claim": "|V|=1023 gives a line-line peak equal to the bus (full linear SVPWM, phase peak Vbus/sqrt3); 500 gives 0.489",
+ "ok": true
+}
