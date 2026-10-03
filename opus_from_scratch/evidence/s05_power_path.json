@@ -1,0 +1,940 @@
+{
+ "power_path_functions": [
+  {
+   "func": "0x2a3c",
+   "end": "0x2a40",
+   "bytes_compared": 60,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x2a60",
+   "end": "0x2c2c",
+   "bytes_compared": 460,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x3db4",
+   "end": "0x3de8",
+   "bytes_compared": 60,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x3df0",
+   "end": "0x3e1a",
+   "bytes_compared": 42,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x3e1a",
+   "end": "0x3e20",
+   "bytes_compared": 6,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x3e20",
+   "end": "0x3ed0",
+   "bytes_compared": 212,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x3edc",
+   "end": "0x3efc",
+   "bytes_compared": 32,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4644",
+   "end": "0x465e",
+   "bytes_compared": 38,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x4ae0",
+   "end": "0x4b18",
+   "bytes_compared": 76,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x4b2c",
+   "end": "0x4b3c",
+   "bytes_compared": 24,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4b76",
+   "end": "0x4b8e",
+   "bytes_compared": 24,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4b8e",
+   "end": "0x4bb2",
+   "bytes_compared": 36,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4bb4",
+   "end": "0x4c80",
+   "bytes_compared": 248,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x4c90",
+   "end": "0x4ca6",
+   "bytes_compared": 26,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x4cac",
+   "end": "0x4cb6",
+   "bytes_compared": 10,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4cb6",
+   "end": "0x4cc2",
+   "bytes_compared": 12,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4d04",
+   "end": "0x4d1c",
+   "bytes_compared": 44,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4d2c",
+   "end": "0x4d54",
+   "bytes_compared": 40,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4e8c",
+   "end": "0x4f00",
+   "bytes_compared": 172,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x4f80",
+   "end": "0x4fb8",
+   "bytes_compared": 60,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x4fbc",
+   "end": "0x5084",
+   "bytes_compared": 216,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x508c",
+   "end": "0x5098",
+   "bytes_compared": 12,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x5098",
+   "end": "0x50ca",
+   "bytes_compared": 54,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x50d0",
+   "end": "0x5102",
+   "bytes_compared": 54,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x5108",
+   "end": "0x5124",
+   "bytes_compared": 32,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x528c",
+   "end": "0x5302",
+   "bytes_compared": 134,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x5390",
+   "end": "0x54f2",
+   "bytes_compared": 496,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x5694",
+   "end": "0x5730",
+   "bytes_compared": 180,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "AON block (IWDG/PMU: watchdog, sleep/wake)",
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x5748",
+   "end": "0x57fa",
+   "bytes_compared": 210,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "GPIO3 (P3.x incl. P3.9 power hold)"
+   ]
+  },
+  {
+   "func": "0x5834",
+   "end": "0x5974",
+   "bytes_compared": 336,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x597c",
+   "end": "0x5988",
+   "bytes_compared": 24,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "AON block (IWDG/PMU: watchdog, sleep/wake)"
+   ]
+  },
+  {
+   "func": "0x5994",
+   "end": "0x59a6",
+   "bytes_compared": 26,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "AON block (IWDG/PMU: watchdog, sleep/wake)"
+   ]
+  },
+  {
+   "func": "0x601c",
+   "end": "0x606c",
+   "bytes_compared": 116,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x64f4",
+   "end": "0x6560",
+   "bytes_compared": 152,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x6584",
+   "end": "0x6596",
+   "bytes_compared": 26,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x6634",
+   "end": "0x663c",
+   "bytes_compared": 8,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "PWRDN interrupt (supply-low)"
+   ]
+  },
+  {
+   "func": "0x7268",
+   "end": "0x7356",
+   "bytes_compared": 318,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x7c3c",
+   "end": "0x7caa",
+   "bytes_compared": 146,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x7de4",
+   "end": "0x7e34",
+   "bytes_compared": 100,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "AON block (IWDG/PMU: watchdog, sleep/wake)"
+   ]
+  },
+  {
+   "func": "0x80d4",
+   "end": "0x80ec",
+   "bytes_compared": 32,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x80f4",
+   "end": "0x81ea",
+   "bytes_compared": 294,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x821c",
+   "end": "0x8236",
+   "bytes_compared": 34,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x8240",
+   "end": "0x824e",
+   "bytes_compared": 22,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x8258",
+   "end": "0x82ae",
+   "bytes_compared": 94,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x82b8",
+   "end": "0x82da",
+   "bytes_compared": 42,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x82e4",
+   "end": "0x8334",
+   "bytes_compared": 108,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0x834c",
+   "end": "0x8484",
+   "bytes_compared": 388,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x84c0",
+   "end": "0x855e",
+   "bytes_compared": 214,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x8588",
+   "end": "0x8632",
+   "bytes_compared": 206,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x8eec",
+   "end": "0x8efe",
+   "bytes_compared": 18,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x8efe",
+   "end": "0x8f10",
+   "bytes_compared": 18,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x8f20",
+   "end": "0x8fa8",
+   "bytes_compared": 170,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x932c",
+   "end": "0x934c",
+   "bytes_compared": 44,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x9470",
+   "end": "0x96a8",
+   "bytes_compared": 638,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "UART0 interrupt"
+   ]
+  },
+  {
+   "func": "0x96cc",
+   "end": "0x9716",
+   "bytes_compared": 90,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "GPIO3 (P3.x incl. P3.9 power hold)",
+    "idle auto-off timer (clears P3.9)"
+   ]
+  },
+  {
+   "func": "0x9724",
+   "end": "0x9898",
+   "bytes_compared": 428,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "UART1 interrupt"
+   ]
+  },
+  {
+   "func": "0x98b0",
+   "end": "0x98c4",
+   "bytes_compared": 24,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x98c8",
+   "end": "0x9946",
+   "bytes_compared": 146,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x9978",
+   "end": "0x998c",
+   "bytes_compared": 24,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0x99fc",
+   "end": "0xa06c",
+   "bytes_compared": 1802,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "GPIO3 (P3.x incl. P3.9 power hold)",
+    "dashboard frame handler (0x51/0x52/0x53 frames, stay-on bit -> P3.9)"
+   ]
+  },
+  {
+   "func": "0xa6fc",
+   "end": "0xa716",
+   "bytes_compared": 26,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xa744",
+   "end": "0xa756",
+   "bytes_compared": 22,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xa75c",
+   "end": "0xa776",
+   "bytes_compared": 30,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xa77c",
+   "end": "0xa796",
+   "bytes_compared": 30,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xa79c",
+   "end": "0xa7ae",
+   "bytes_compared": 22,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xa7b4",
+   "end": "0xa7f0",
+   "bytes_compared": 68,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  },
+  {
+   "func": "0xb41c",
+   "end": "0xb450",
+   "bytes_compared": 72,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "SYS block (clock/power/reset control)"
+   ]
+  },
+  {
+   "func": "0xbd34",
+   "end": "0xbe44",
+   "bytes_compared": 280,
+   "identical": true,
+   "first_diff": null,
+   "role": [
+    "callee of power path"
+   ]
+  }
+ ],
+ "all_power_path_functions_identical": true,
+ "battery_side_program_identical": true,
+ "changed_regions_rt": [
+  [
+   "0x4dc6",
+   "0x4dc7"
+  ],
+  [
+   "0x51a4",
+   "0x51a5"
+  ],
+  [
+   "0x55a0",
+   "0x55a4"
+  ],
+  [
+   "0x5688",
+   "0x568a"
+  ],
+  [
+   "0x5690",
+   "0x5692"
+  ],
+  [
+   "0x5aec",
+   "0x5af2"
+  ],
+  [
+   "0x679e",
+   "0x67a2"
+  ],
+  [
+   "0x681a",
+   "0x681e"
+  ],
+  [
+   "0x6c30",
+   "0x6c36"
+  ],
+  [
+   "0x6fcc",
+   "0x6fd0"
+  ],
+  [
+   "0x6ff2",
+   "0x6ff9"
+  ],
+  [
+   "0x7000",
+   "0x700b"
+  ],
+  [
+   "0x7014",
+   "0x7018"
+  ],
+  [
+   "0x7108",
+   "0x7109"
+  ],
+  [
+   "0x7118",
+   "0x7119"
+  ],
+  [
+   "0x8c78",
+   "0x8c79"
+  ],
+  [
+   "0x8ea0",
+   "0x8ea2"
+  ],
+  [
+   "0x8ebc",
+   "0x8ebe"
+  ],
+  [
+   "0x8ec4",
+   "0x8ec6"
+  ],
+  [
+   "0x8ee8",
+   "0x8eea"
+  ],
+  [
+   "0x9008",
+   "0x9009"
+  ],
+  [
+   "0x901a",
+   "0x9020"
+  ],
+  [
+   "0x903a",
+   "0x9068"
+  ],
+  [
+   "0x908c",
+   "0x908e"
+  ],
+  [
+   "0xc804",
+   "0xc83a"
+  ],
+  [
+   "0xc840",
+   "0xc8be"
+  ],
+  [
+   "0xc900",
+   "0xc91a"
+  ],
+  [
+   "0xc938",
+   "0xca80"
+  ]
+ ],
+ "rc02_functions_containing_changes": [
+  "0x4db8",
+  "0x5144",
+  "0x5524",
+  "0x663c",
+  "0x6db4",
+  "0x70f0",
+  "0x8bf4",
+  "0x8fc4",
+  "0x9044",
+  "0xc804",
+  "0xc840",
+  "0xc900",
+  "0xc938"
+ ],
+ "rc02_new_functions": [
+  "0xc804",
+  "0xc840",
+  "0xc900",
+  "0xc938"
+ ],
+ "functions_called_by_new_code": [
+  "0x7b1c",
+  "0x834c"
+ ],
+ "ram_read_by_power_path_and_written_by_changed_code": {
+  "0x2000001f": {
+   "read_by_power_path": [
+    "0x4fbc"
+   ],
+   "written_by_changed_or_new": [
+    "0x663c"
+   ]
+  },
+  "0x200000e8": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  },
+  "0x200000e9": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  },
+  "0x20000144": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x20000145": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x20000146": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x20000147": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x20000148": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x20000149": {
+   "read_by_power_path": [
+    "0x99fc"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524",
+    "0x6db4"
+   ]
+  },
+  "0x2000034c": {
+   "read_by_power_path": [
+    "0x4e8c"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  },
+  "0x2000034d": {
+   "read_by_power_path": [
+    "0x4e8c"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  },
+  "0x2000034e": {
+   "read_by_power_path": [
+    "0x4e8c"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  },
+  "0x2000034f": {
+   "read_by_power_path": [
+    "0x4e8c"
+   ],
+   "written_by_changed_or_new": [
+    "0x5524"
+   ]
+  }
+ }
+}

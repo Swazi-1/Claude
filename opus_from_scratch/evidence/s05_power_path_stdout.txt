@@ -1,0 +1,85 @@
+power-path functions: 68 all identical: True | battery-side identical: True
+   0x2a3c identical=True bytes=  60 callee of power path
+   0x2a60 identical=True bytes= 460 callee of power path
+   0x3db4 identical=True bytes=  60 SYS block (clock/power/reset control)
+   0x3df0 identical=True bytes=  42 callee of power path
+   0x3e1a identical=True bytes=   6 callee of power path
+   0x3e20 identical=True bytes= 212 callee of power path
+   0x3edc identical=True bytes=  32 callee of power path
+   0x4644 identical=True bytes=  38 SYS block (clock/power/reset control)
+   0x4ae0 identical=True bytes=  76 SYS block (clock/power/reset control)
+   0x4b2c identical=True bytes=  24 callee of power path
+   0x4b76 identical=True bytes=  24 callee of power path
+   0x4b8e identical=True bytes=  36 callee of power path
+   0x4bb4 identical=True bytes= 248 SYS block (clock/power/reset control)
+   0x4c90 identical=True bytes=  26 SYS block (clock/power/reset control)
+   0x4cac identical=True bytes=  10 callee of power path
+   0x4cb6 identical=True bytes=  12 callee of power path
+   0x4d04 identical=True bytes=  44 callee of power path
+   0x4d2c identical=True bytes=  40 callee of power path
+   0x4e8c identical=True bytes= 172 SYS block (clock/power/reset control)
+   0x4f80 identical=True bytes=  60 callee of power path
+   0x4fbc identical=True bytes= 216 callee of power path
+   0x508c identical=True bytes=  12 callee of power path
+   0x5098 identical=True bytes=  54 callee of power path
+   0x50d0 identical=True bytes=  54 callee of power path
+   0x5108 identical=True bytes=  32 callee of power path
+   0x528c identical=True bytes= 134 callee of power path
+   0x5390 identical=True bytes= 496 SYS block (clock/power/reset control)
+   0x5694 identical=True bytes= 180 AON block (IWDG/PMU: watchdog, sleep/wake), SYS block (clock/power/reset control)
+   0x5748 identical=True bytes= 210 GPIO3 (P3.x incl. P3.9 power hold)
+   0x5834 identical=True bytes= 336 callee of power path
+   0x597c identical=True bytes=  24 AON block (IWDG/PMU: watchdog, sleep/wake)
+   0x5994 identical=True bytes=  26 AON block (IWDG/PMU: watchdog, sleep/wake)
+   0x601c identical=True bytes= 116 callee of power path
+   0x64f4 identical=True bytes= 152 SYS block (clock/power/reset control)
+   0x6584 identical=True bytes=  26 SYS block (clock/power/reset control)
+   0x6634 identical=True bytes=   8 PWRDN interrupt (supply-low)
+   0x7268 identical=True bytes= 318 SYS block (clock/power/reset control)
+   0x7c3c identical=True bytes= 146 callee of power path
+   0x7de4 identical=True bytes= 100 AON block (IWDG/PMU: watchdog, sleep/wake)
+   0x80d4 identical=True bytes=  32 SYS block (clock/power/reset control)
+   0x80f4 identical=True bytes= 294 SYS block (clock/power/reset control)
+   0x821c identical=True bytes=  34 SYS block (clock/power/reset control)
+   0x8240 identical=True bytes=  22 SYS block (clock/power/reset control)
+   0x8258 identical=True bytes=  94 SYS block (clock/power/reset control)
+   0x82b8 identical=True bytes=  42 callee of power path
+   0x82e4 identical=True bytes= 108 SYS block (clock/power/reset control)
+   0x834c identical=True bytes= 388 callee of power path
+   0x84c0 identical=True bytes= 214 callee of power path
+   0x8588 identical=True bytes= 206 callee of power path
+   0x8eec identical=True bytes=  18 callee of power path
+   0x8efe identical=True bytes=  18 callee of power path
+   0x8f20 identical=True bytes= 170 callee of power path
+   0x932c identical=True bytes=  44 callee of power path
+   0x9470 identical=True bytes= 638 UART0 interrupt
+   0x96cc identical=True bytes=  90 GPIO3 (P3.x incl. P3.9 power hold), idle auto-off timer (clears P3.9)
+   0x9724 identical=True bytes= 428 UART1 interrupt
+   0x98b0 identical=True bytes=  24 callee of power path
+   0x98c8 identical=True bytes= 146 callee of power path
+   0x9978 identical=True bytes=  24 callee of power path
+   0x99fc identical=True bytes=1802 GPIO3 (P3.x incl. P3.9 power hold), dashboard frame handler (0x51/0x52/0x53 frames, stay-on bit -> P3.9)
+   0xa6fc identical=True bytes=  26 callee of power path
+   0xa744 identical=True bytes=  22 callee of power path
+   0xa75c identical=True bytes=  30 callee of power path
+   0xa77c identical=True bytes=  30 callee of power path
+   0xa79c identical=True bytes=  22 callee of power path
+   0xa7b4 identical=True bytes=  68 callee of power path
+   0xb41c identical=True bytes=  72 SYS block (clock/power/reset control)
+   0xbd34 identical=True bytes= 280 callee of power path
+changed functions: ['0x4db8', '0x5144', '0x5524', '0x663c', '0x6db4', '0x70f0', '0x8bf4', '0x8fc4', '0x9044', '0xc804', '0xc840', '0xc900', '0xc938']
+new functions: ['0xc804', '0xc840', '0xc900', '0xc938'] call: ['0x7b1c', '0x834c']
+RAM overlap (power path reads  x  changed/new code writes):
+   0x2000001f {'read_by_power_path': ['0x4fbc'], 'written_by_changed_or_new': ['0x663c']}
+   0x200000e8 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524']}
+   0x200000e9 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524']}
+   0x20000144 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x20000145 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x20000146 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x20000147 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x20000148 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x20000149 {'read_by_power_path': ['0x99fc'], 'written_by_changed_or_new': ['0x5524', '0x6db4']}
+   0x2000034c {'read_by_power_path': ['0x4e8c'], 'written_by_changed_or_new': ['0x5524']}
+   0x2000034d {'read_by_power_path': ['0x4e8c'], 'written_by_changed_or_new': ['0x5524']}
+   0x2000034e {'read_by_power_path': ['0x4e8c'], 'written_by_changed_or_new': ['0x5524']}
+   0x2000034f {'read_by_power_path': ['0x4e8c'], 'written_by_changed_or_new': ['0x5524']}

@@ -1,0 +1,222 @@
+{
+ "images": {
+  "stock": {
+   "len": 147456,
+   "pkg_size_be_at_0": "0x23800",
+   "version_ascii_0x12": "0108",
+   "model_id_ascii_0x22": "001600010001",
+   "subheader_0x800": "4445505244354300018800b9fe",
+   "mc_header_ascii": "LKS32MC071CBT8FFP",
+   "hdr_crc16_stored": "0xc01f",
+   "hdr_crc16_calc_over_0x19800_to_end": "0xc01f",
+   "hdr_crc16_ok": true,
+   "mc_size": "0xa004",
+   "mc_crc32_stored": "0xc87ce8d2",
+   "mc_crc32_calc": "0xc87ce8d2",
+   "mc_crc32_ok": true,
+   "a_vector_sp_reset": [
+    "0x20004e40",
+    "0x800315d"
+   ],
+   "mc_vector_sp_reset": [
+    "0x20001050",
+    "0x2985"
+   ],
+   "data_regions": [
+    [
+     "0x0",
+     "0x2e"
+    ],
+    [
+     "0x800",
+     "0x80d"
+    ],
+    [
+     "0x1000",
+     "0x19224"
+    ],
+    [
+     "0x19800",
+     "0x2381c"
+    ]
+   ]
+  },
+  "v71": {
+   "len": 147456,
+   "pkg_size_be_at_0": "0x23800",
+   "version_ascii_0x12": "0108",
+   "model_id_ascii_0x22": "001600010001",
+   "subheader_0x800": "4445505244354300018800b9fe",
+   "mc_header_ascii": "LKS32MC071CBT8FFP",
+   "hdr_crc16_stored": "0xa4b1",
+   "hdr_crc16_calc_over_0x19800_to_end": "0xa4b1",
+   "hdr_crc16_ok": true,
+   "mc_size": "0xa404",
+   "mc_crc32_stored": "0xf3593bbd",
+   "mc_crc32_calc": "0xf3593bbd",
+   "mc_crc32_ok": true,
+   "a_vector_sp_reset": [
+    "0x20004e40",
+    "0x800315d"
+   ],
+   "mc_vector_sp_reset": [
+    "0x20001050",
+    "0x2985"
+   ],
+   "data_regions": [
+    [
+     "0x0",
+     "0x2e"
+    ],
+    [
+     "0x800",
+     "0x80d"
+    ],
+    [
+     "0x1000",
+     "0x19224"
+    ],
+    [
+     "0x19800",
+     "0x238d6"
+    ],
+    [
+     "0x23918",
+     "0x23932"
+    ]
+   ]
+  },
+  "rc01": {
+   "len": 147456,
+   "pkg_size_be_at_0": "0x23800",
+   "version_ascii_0x12": "0108",
+   "model_id_ascii_0x22": "001600010001",
+   "subheader_0x800": "4445505244354300018800b9fe",
+   "mc_header_ascii": "LKS32MC071CBT8FFP",
+   "hdr_crc16_stored": "0x57da",
+   "hdr_crc16_calc_over_0x19800_to_end": "0x57da",
+   "hdr_crc16_ok": true,
+   "mc_size": "0xa404",
+   "mc_crc32_stored": "0x1d5f417a",
+   "mc_crc32_calc": "0x1d5f417a",
+   "mc_crc32_ok": true,
+   "a_vector_sp_reset": [
+    "0x20004e40",
+    "0x800315d"
+   ],
+   "mc_vector_sp_reset": [
+    "0x20001050",
+    "0x2985"
+   ],
+   "data_regions": [
+    [
+     "0x0",
+     "0x2e"
+    ],
+    [
+     "0x800",
+     "0x80d"
+    ],
+    [
+     "0x1000",
+     "0x19224"
+    ],
+    [
+     "0x19800",
+     "0x238d6"
+    ],
+    [
+     "0x23918",
+     "0x23932"
+    ]
+   ]
+  },
+  "rc02": {
+   "len": 147456,
+   "pkg_size_be_at_0": "0x23800",
+   "version_ascii_0x12": "0108",
+   "model_id_ascii_0x22": "001600010001",
+   "subheader_0x800": "4445505244354300018800b9fe",
+   "mc_header_ascii": "LKS32MC071CBT8FFP",
+   "hdr_crc16_stored": "0x7763",
+   "hdr_crc16_calc_over_0x19800_to_end": "0x7763",
+   "hdr_crc16_ok": true,
+   "mc_size": "0xa404",
+   "mc_crc32_stored": "0x158f61fd",
+   "mc_crc32_calc": "0x158f61fd",
+   "mc_crc32_ok": true,
+   "a_vector_sp_reset": [
+    "0x20004e40",
+    "0x800315d"
+   ],
+   "mc_vector_sp_reset": [
+    "0x20001050",
+    "0x2985"
+   ],
+   "data_regions": [
+    [
+     "0x0",
+     "0x2e"
+    ],
+    [
+     "0x800",
+     "0x80d"
+    ],
+    [
+     "0x1000",
+     "0x19224"
+    ],
+    [
+     "0x19800",
+     "0x238d6"
+    ],
+    [
+     "0x23918",
+     "0x23a98"
+    ]
+   ]
+  }
+ },
+ "pairs": {
+  "stock_vs_rc02": {
+   "regions": 30,
+   "bytes_differing": 647,
+   "in_header_0_0x1000": 1,
+   "in_program_A_0x1000_0x19800": 0,
+   "in_motor_controller_0x19800_end": 29,
+   "program_A_identical": true
+  },
+  "stock_vs_v71": {
+   "regions": 27,
+   "bytes_differing": 305,
+   "in_header_0_0x1000": 1,
+   "in_program_A_0x1000_0x19800": 0,
+   "in_motor_controller_0x19800_end": 26,
+   "program_A_identical": true
+  },
+  "v71_vs_rc02": {
+   "regions": 7,
+   "bytes_differing": 358,
+   "in_header_0_0x1000": 1,
+   "in_program_A_0x1000_0x19800": 0,
+   "in_motor_controller_0x19800_end": 6,
+   "program_A_identical": true
+  },
+  "rc01_vs_rc02": {
+   "regions": 5,
+   "bytes_differing": 342,
+   "in_header_0_0x1000": 1,
+   "in_program_A_0x1000_0x19800": 0,
+   "in_motor_controller_0x19800_end": 4,
+   "program_A_identical": true
+  },
+  "stock_vs_rc01": {
+   "regions": 27,
+   "bytes_differing": 311,
+   "in_header_0_0x1000": 1,
+   "in_program_A_0x1000_0x19800": 0,
+   "in_motor_controller_0x19800_end": 26,
+   "program_A_identical": true
+  }
+ }
+}
