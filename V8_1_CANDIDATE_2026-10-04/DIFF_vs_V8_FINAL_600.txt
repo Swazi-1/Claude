@@ -1,0 +1,13 @@
+15 differing bytes between MI5Max_V8_FINAL_600.bin and MI5Max_V8_1_CANDIDATE.bin
+  header: 6
+  B (motor): 7
+  appended code/pad: 2
+8 runs:
+  0x0000A..0x0000B (2 B) header  
+  0x19804..0x19807 (4 B) header  
+  0x1FC90..0x1FC90 (1 B) B (motor)  thermal_derate
+  0x1FD92..0x1FD92 (1 B) B (motor)  lowcharge_cap_base
+  0x1FD96..0x1FD96 (1 B) B (motor)  lowcharge_cap_base
+  0x1FD98..0x1FD99 (2 B) B (motor)  lowcharge_cap_base
+  0x1FEB8..0x1FEB9 (2 B) B (motor)  
+  0x23824..0x23825 (2 B) appended code/pad  

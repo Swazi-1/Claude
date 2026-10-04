@@ -1,0 +1,9 @@
+MI5Max_V8_1_CANDIDATE.bin  147456 bytes  sha256 9218c5ef58b78d39a172d6a85d5c046d5ff85e4bfaa3e644f1e04c20b4e2f63b
+inner CRC32 stored 2BF00D61 computed 2BF00D61 OK
+outer CRC16 stored 0684 computed 0684 OK
+program A sha256 8455635599b6e8b1  (identical in every known build)
+program B sha256 bd3bde482fa1b36b
+appended code: file 0x2381C..0x23A97 (636 bytes; custom builds only)
+Sport current cap (0x1E02C): 600 counts = 22.1 A at the battery
+regen demand weak/medium/strong (0x2001C/0x20020): 91/146/292
+coast regen starts at (0x1BDDE): 5.0 km/h;  thermal derate imm (0x1FC90): 0xD8 -> 864
