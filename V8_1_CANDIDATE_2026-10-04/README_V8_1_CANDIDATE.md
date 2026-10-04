@@ -73,3 +73,5 @@ Use `POWER_BUTTON_TEST_AND_FLASH_CHECKLIST.md` (this folder). Short version: but
 | 23 km/h | 172 W | 7.5 | ~58 km |
 | 22 km/h | 157 W | 7.1 | ~60 km |
 D current cap 400 vs 328: ~0.01 Wh per start (about 0.3 % range), so it was left at 400. If more range is wanted later, the D speed target (literal 250 at 0x20054) is the lever; not changed here.
+
+ON THE SCOOTER since 2026-10-04 (owner): button 10/10, all checks OK. V8 FINAL 600 is the rollback.
