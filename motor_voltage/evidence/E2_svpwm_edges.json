@@ -1,0 +1,267 @@
+{
+ "1000": {
+  "i0": {
+   "out_of_range": 0,
+   "inverted_pairs": 0,
+   "angles_without_sample": 9,
+   "invalid_phase_in_pair": {
+    "B": 3,
+    "A": 3,
+    "C": 3
+   },
+   "t_min_zero_current": 34,
+   "t_max_zero_current": 3038
+  },
+  "i600_inphase": {
+   "out_of_range": 160,
+   "inverted_pairs": 0,
+   "angles_without_sample": 9,
+   "invalid_phase_in_pair": {
+    "B": 3,
+    "A": 3,
+    "C": 3
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 85,
+   "inverted_pairs": 0,
+   "angles_without_sample": 9,
+   "invalid_phase_in_pair": {
+    "B": 3,
+    "A": 3,
+    "C": 3
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 5,
+   "inverted_pairs": 0,
+   "angles_without_sample": 9,
+   "invalid_phase_in_pair": {
+    "B": 3,
+    "A": 3,
+    "C": 3
+   }
+  }
+ },
+ "1023": {
+  "i0": {
+   "out_of_range": 0,
+   "inverted_pairs": 0,
+   "angles_without_sample": 12,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 3,
+    "C": 4
+   },
+   "t_min_zero_current": 0,
+   "t_max_zero_current": 3072
+  },
+  "i600_inphase": {
+   "out_of_range": 212,
+   "inverted_pairs": 0,
+   "angles_without_sample": 12,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 3,
+    "C": 4
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 157,
+   "inverted_pairs": 0,
+   "angles_without_sample": 12,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 3,
+    "C": 4
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 50,
+   "inverted_pairs": 0,
+   "angles_without_sample": 12,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 3,
+    "C": 4
+   }
+  }
+ },
+ "1050": {
+  "i0": {
+   "out_of_range": 150,
+   "inverted_pairs": 0,
+   "angles_without_sample": 15,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 5,
+    "C": 5
+   },
+   "t_min_zero_current": 0,
+   "t_max_zero_current": 3112
+  },
+  "i600_inphase": {
+   "out_of_range": 263,
+   "inverted_pairs": 150,
+   "angles_without_sample": 15,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 5,
+    "C": 5
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 223,
+   "inverted_pairs": 78,
+   "angles_without_sample": 15,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 5,
+    "C": 5
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 167,
+   "inverted_pairs": 7,
+   "angles_without_sample": 15,
+   "invalid_phase_in_pair": {
+    "B": 5,
+    "A": 5,
+    "C": 5
+   }
+  }
+ },
+ "1100": {
+  "i0": {
+   "out_of_range": 258,
+   "inverted_pairs": 0,
+   "angles_without_sample": 27,
+   "invalid_phase_in_pair": {
+    "B": 9,
+    "A": 9,
+    "C": 9
+   },
+   "t_min_zero_current": 0,
+   "t_max_zero_current": 3188
+  },
+  "i600_inphase": {
+   "out_of_range": 318,
+   "inverted_pairs": 258,
+   "angles_without_sample": 27,
+   "invalid_phase_in_pair": {
+    "B": 9,
+    "A": 9,
+    "C": 9
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 309,
+   "inverted_pairs": 177,
+   "angles_without_sample": 27,
+   "invalid_phase_in_pair": {
+    "B": 9,
+    "A": 9,
+    "C": 9
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 273,
+   "inverted_pairs": 153,
+   "angles_without_sample": 27,
+   "invalid_phase_in_pair": {
+    "B": 9,
+    "A": 9,
+    "C": 9
+   }
+  }
+ },
+ "1182": {
+  "i0": {
+   "out_of_range": 355,
+   "inverted_pairs": 0,
+   "angles_without_sample": 39,
+   "invalid_phase_in_pair": {
+    "B": 13,
+    "A": 13,
+    "C": 13
+   },
+   "t_min_zero_current": 0,
+   "t_max_zero_current": 3311
+  },
+  "i600_inphase": {
+   "out_of_range": 358,
+   "inverted_pairs": 318,
+   "angles_without_sample": 39,
+   "invalid_phase_in_pair": {
+    "B": 13,
+    "A": 13,
+    "C": 13
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 358,
+   "inverted_pairs": 243,
+   "angles_without_sample": 39,
+   "invalid_phase_in_pair": {
+    "B": 13,
+    "A": 13,
+    "C": 13
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 355,
+   "inverted_pairs": 243,
+   "angles_without_sample": 39,
+   "invalid_phase_in_pair": {
+    "B": 13,
+    "A": 13,
+    "C": 13
+   }
+  }
+ },
+ "1300": {
+  "i0": {
+   "out_of_range": 375,
+   "inverted_pairs": 0,
+   "angles_without_sample": 51,
+   "invalid_phase_in_pair": {
+    "B": 17,
+    "A": 17,
+    "C": 17
+   },
+   "t_min_zero_current": 0,
+   "t_max_zero_current": 3487
+  },
+  "i600_inphase": {
+   "out_of_range": 375,
+   "inverted_pairs": 324,
+   "angles_without_sample": 51,
+   "invalid_phase_in_pair": {
+    "B": 17,
+    "A": 17,
+    "C": 17
+   }
+  },
+  "i600_lag60": {
+   "out_of_range": 375,
+   "inverted_pairs": 255,
+   "angles_without_sample": 51,
+   "invalid_phase_in_pair": {
+    "B": 17,
+    "A": 17,
+    "C": 17
+   }
+  },
+  "i600_lead120": {
+   "out_of_range": 375,
+   "inverted_pairs": 255,
+   "angles_without_sample": 51,
+   "invalid_phase_in_pair": {
+    "B": 17,
+    "A": 17,
+    "C": 17
+   }
+  }
+ },
+ "isr_pair_is_two_lowest_duties_for_all_angles": false
+}

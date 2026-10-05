@@ -1,0 +1,47 @@
+{
+ "stock_1023": {
+  "fundamental": 0.9884,
+  "h5_pct": 0.66,
+  "h7_pct": 0.38
+ },
+ "drop_1023": {
+  "fundamental": 1.0161,
+  "h5_pct": 0.31,
+  "h7_pct": 0.53
+ },
+ "stock_1000": {
+  "fundamental": 0.9719,
+  "h5_pct": 0.31,
+  "h7_pct": 0.16
+ },
+ "stock_900": {
+  "fundamental": 0.8787,
+  "h5_pct": 0.1,
+  "h7_pct": 0.13
+ },
+ "overmod_clamped_drop_1050": {
+  "fundamental": 1.03,
+  "h5_pct": 0.92,
+  "h7_pct": 1.47
+ },
+ "overmod_clamped_drop_1100": {
+  "fundamental": 1.0446,
+  "h5_pct": 2.7,
+  "h7_pct": 2.05
+ },
+ "overmod_clamped_drop_1182": {
+  "fundamental": 1.0548,
+  "h5_pct": 4.55,
+  "h7_pct": 1.57
+ },
+ "overmod_clamped_drop_1300": {
+  "fundamental": 1.0635,
+  "h5_pct": 6.63,
+  "h7_pct": 0.32
+ },
+ "overmod_clamped_drop_1500": {
+  "fundamental": 1.0738,
+  "h5_pct": 9.45,
+  "h7_pct": 1.89
+ }
+}

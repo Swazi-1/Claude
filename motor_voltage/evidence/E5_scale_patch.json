@@ -1,0 +1,62 @@
+{
+ "sites": {
+  "0x1ee9e": {
+   "old": "03214902",
+   "new": "c821c900",
+   "old_asm": [
+    "movs r1, #3",
+    "lsls r1, r1, #9"
+   ],
+   "new_asm": [
+    "movs r1, #0xc8",
+    "lsls r1, r1, #3"
+   ]
+  },
+  "0x1eea6": {
+   "old": "0322",
+   "new": "c822",
+   "old_asm": [
+    "movs r2, #3"
+   ],
+   "new_asm": [
+    "movs r2, #0xc8"
+   ]
+  },
+  "0x1eeaa": {
+   "old": "5202",
+   "new": "d200",
+   "old_asm": [
+    "lsls r2, r2, #9"
+   ],
+   "new_asm": [
+    "lsls r2, r2, #3"
+   ]
+  },
+  "0x1eeb0": {
+   "old": "03235b02",
+   "new": "c823db00",
+   "old_asm": [
+    "movs r3, #3",
+    "lsls r3, r3, #9"
+   ],
+   "new_asm": [
+    "movs r3, #0xc8",
+    "lsls r3, r3, #3"
+   ]
+  }
+ },
+ "center_at_zero": {
+  "stock": [
+   1536,
+   1536,
+   1536
+  ],
+  "patched": [
+   1536,
+   1536,
+   1536
+  ]
+ },
+ "swing_ratio_at_500": 1.0426,
+ "patched_first_M_with_100pct": 982
+}

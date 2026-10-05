@@ -1,0 +1,562 @@
+{
+ "500": {
+  "i0": {
+   "t_max": {
+    "A": 2287,
+    "B": 2288,
+    "C": 2287
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2187,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.4883,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 2363,
+    "B": 2364,
+    "C": 2363
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2263,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.5154,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "800": {
+  "i0": {
+   "t_max": {
+    "A": 2736,
+    "B": 2737,
+    "C": 2737
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2576,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.7813,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 2812,
+    "B": 2813,
+    "C": 2813
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2652,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.8084,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "900": {
+  "i0": {
+   "t_max": {
+    "A": 2886,
+    "B": 2887,
+    "C": 2886
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2706,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.8788,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 2962,
+    "B": 2963,
+    "C": 2962
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2782,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.9059,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "950": {
+  "i0": {
+   "t_max": {
+    "A": 2961,
+    "B": 2962,
+    "C": 2963
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2771,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.9277,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3037,
+    "B": 3038,
+    "C": 3039
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 0,
+   "max_middle_phase_t": 2847,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.9548,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1000": {
+  "i0": {
+   "t_max": {
+    "A": 3036,
+    "B": 3037,
+    "C": 3038
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 9,
+   "max_middle_phase_t": 2836,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.9767,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3112,
+    "B": 3113,
+    "C": 3114
+   },
+   "compare_out_of_range_phase_angles": 160,
+   "angles_without_current_sample": 9,
+   "max_middle_phase_t": 2874,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0011,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1023": {
+  "i0": {
+   "t_max": {
+    "A": 3071,
+    "B": 3072,
+    "C": 3072
+   },
+   "compare_out_of_range_phase_angles": 0,
+   "angles_without_current_sample": 12,
+   "max_middle_phase_t": 2865,
+   "fundamental_fraction_of_vbus_over_sqrt3": 0.999,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3147,
+    "B": 3148,
+    "C": 3148
+   },
+   "compare_out_of_range_phase_angles": 212,
+   "angles_without_current_sample": 12,
+   "max_middle_phase_t": 2901,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0171,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1050": {
+  "i0": {
+   "t_max": {
+    "A": 3111,
+    "B": 3112,
+    "C": 3112
+   },
+   "compare_out_of_range_phase_angles": 150,
+   "angles_without_current_sample": 15,
+   "max_middle_phase_t": 2901,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0181,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3187,
+    "B": 3188,
+    "C": 3188
+   },
+   "compare_out_of_range_phase_angles": 263,
+   "angles_without_current_sample": 15,
+   "max_middle_phase_t": 2901,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0305,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1100": {
+  "i0": {
+   "t_max": {
+    "A": 3186,
+    "B": 3187,
+    "C": 3188
+   },
+   "compare_out_of_range_phase_angles": 258,
+   "angles_without_current_sample": 27,
+   "max_middle_phase_t": 2966,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0394,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3262,
+    "B": 3263,
+    "C": 3264
+   },
+   "compare_out_of_range_phase_angles": 318,
+   "angles_without_current_sample": 27,
+   "max_middle_phase_t": 2966,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0454,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1182": {
+  "i0": {
+   "t_max": {
+    "A": 3309,
+    "B": 3310,
+    "C": 3311
+   },
+   "compare_out_of_range_phase_angles": 355,
+   "angles_without_current_sample": 39,
+   "max_middle_phase_t": 3072,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0548,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3385,
+    "B": 3386,
+    "C": 3387
+   },
+   "compare_out_of_range_phase_angles": 358,
+   "angles_without_current_sample": 39,
+   "max_middle_phase_t": 3072,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0575,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1200": {
+  "i0": {
+   "t_max": {
+    "A": 3336,
+    "B": 3337,
+    "C": 3337
+   },
+   "compare_out_of_range_phase_angles": 363,
+   "angles_without_current_sample": 39,
+   "max_middle_phase_t": 3096,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0563,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3412,
+    "B": 3413,
+    "C": 3413
+   },
+   "compare_out_of_range_phase_angles": 363,
+   "angles_without_current_sample": 39,
+   "max_middle_phase_t": 3096,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0589,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1300": {
+  "i0": {
+   "t_max": {
+    "A": 3486,
+    "B": 3487,
+    "C": 3487
+   },
+   "compare_out_of_range_phase_angles": 375,
+   "angles_without_current_sample": 51,
+   "max_middle_phase_t": 3225,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0634,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3562,
+    "B": 3563,
+    "C": 3563
+   },
+   "compare_out_of_range_phase_angles": 375,
+   "angles_without_current_sample": 51,
+   "max_middle_phase_t": 3225,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0656,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1400": {
+  "i0": {
+   "t_max": {
+    "A": 3636,
+    "B": 3637,
+    "C": 3637
+   },
+   "compare_out_of_range_phase_angles": 393,
+   "angles_without_current_sample": 57,
+   "max_middle_phase_t": 3355,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0689,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3712,
+    "B": 3713,
+    "C": 3713
+   },
+   "compare_out_of_range_phase_angles": 393,
+   "angles_without_current_sample": 57,
+   "max_middle_phase_t": 3355,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0708,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1500": {
+  "i0": {
+   "t_max": {
+    "A": 3786,
+    "B": 3787,
+    "C": 3788
+   },
+   "compare_out_of_range_phase_angles": 399,
+   "angles_without_current_sample": 69,
+   "max_middle_phase_t": 3486,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0734,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 3862,
+    "B": 3863,
+    "C": 3864
+   },
+   "compare_out_of_range_phase_angles": 399,
+   "angles_without_current_sample": 69,
+   "max_middle_phase_t": 3486,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.075,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ "1600": {
+  "i0": {
+   "t_max": {
+    "A": 3936,
+    "B": 3937,
+    "C": 3937
+   },
+   "compare_out_of_range_phase_angles": 411,
+   "angles_without_current_sample": 75,
+   "max_middle_phase_t": 3615,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.077,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "i600": {
+   "t_max": {
+    "A": 4012,
+    "B": 4013,
+    "C": 4013
+   },
+   "compare_out_of_range_phase_angles": 411,
+   "angles_without_current_sample": 75,
+   "max_middle_phase_t": 3615,
+   "fundamental_fraction_of_vbus_over_sqrt3": 1.0784,
+   "sectors": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ }
+}

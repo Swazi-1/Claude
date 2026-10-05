@@ -1,0 +1,63 @@
+{
+ "I0_phi0": {
+  "with_comp": 0.9958,
+  "no_comp": 0.9958
+ },
+ "I0_phi20": {
+  "with_comp": 0.9958,
+  "no_comp": 0.9958
+ },
+ "I0_phi40": {
+  "with_comp": 0.9958,
+  "no_comp": 0.9958
+ },
+ "I60_phi0": {
+  "with_comp": 0.9869,
+  "no_comp": 0.9718
+ },
+ "I60_phi20": {
+  "with_comp": 0.9878,
+  "no_comp": 0.9734
+ },
+ "I60_phi40": {
+  "with_comp": 0.9902,
+  "no_comp": 0.9784
+ },
+ "I200_phi0": {
+  "with_comp": 0.9869,
+  "no_comp": 0.9718
+ },
+ "I200_phi20": {
+  "with_comp": 0.9894,
+  "no_comp": 0.9734
+ },
+ "I200_phi40": {
+  "with_comp": 0.9949,
+  "no_comp": 0.9784
+ },
+ "I600_phi0": {
+  "with_comp": 0.9884,
+  "no_comp": 0.9718
+ },
+ "I600_phi20": {
+  "with_comp": 0.9884,
+  "no_comp": 0.9734
+ },
+ "I600_phi40": {
+  "with_comp": 0.99,
+  "no_comp": 0.9784
+ },
+ "I1200_phi0": {
+  "with_comp": 0.9886,
+  "no_comp": 0.9718
+ },
+ "I1200_phi20": {
+  "with_comp": 0.9885,
+  "no_comp": 0.9734
+ },
+ "I1200_phi40": {
+  "with_comp": 0.9892,
+  "no_comp": 0.9784
+ },
+ "ideal_no_deadtime_I0": 0.999
+}
